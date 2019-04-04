@@ -1,4 +1,4 @@
-"use strict";
+"use strict"
 class RequestService {
   async getRequest(url) {
     const newsData = await await fetch(url)
