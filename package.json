@@ -1,0 +1,24 @@
+{
+  "name": "hometasktwodemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src/js --out-file bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krishnare/HomeTaskTwoDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krishnare/HomeTaskTwoDemo/issues"
+  },
+  "homepage": "https://github.com/Krishnare/HomeTaskTwoDemo#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3"
+  }
+}
