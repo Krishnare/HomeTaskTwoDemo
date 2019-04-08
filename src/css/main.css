@@ -1,0 +1,33 @@
+body{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+.newsContainer h1{
+    font-size: 2.6em;
+}
+.newsContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+.imageContainer{
+    width:100%;
+    margin: 20px 0;
+}
+.imageContainer img{
+    width: 100%;
+}
+.newsTitle{
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.publishDate{
+    font-size: 10px;
+    color: #7d7b7b;
+    margin: 11px 0;
+}
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+    .newsContainer{
+        width:90%;
+    }
+} 
